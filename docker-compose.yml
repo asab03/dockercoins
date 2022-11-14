@@ -1,7 +1,7 @@
 version: "3"
 services:
   worker:
-    image: jil22400/dockercoins
+    image: jil22400/dockercoins:25
   rng:
     image: asabella/rng
   hasher:
