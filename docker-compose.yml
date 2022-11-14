@@ -3,8 +3,7 @@ services:
   worker:
     image: brahimhamdi/worker:1.0
   rng:
-    image: rng
-    build: asabella/rng:*
+    image: asabella/rng
   hasher:
     image: brahimhamdi/hasher:1.0
   webui:
