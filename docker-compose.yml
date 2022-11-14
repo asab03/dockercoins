@@ -1,11 +1,11 @@
 version: "3"
 services:
   worker:
-    image: jil22400/dockercoins:latest
+    image: jil22400/dockercoins
   rng:
-    image: asabella/rng:latest
+    image: asabella/rng
   hasher:
-    image: alexisbonnet1997/hasher:latest
+    image: alexisbonnet1997/hasher
   webui:
     image: brahimhamdi/webui:1.0
     ports:
